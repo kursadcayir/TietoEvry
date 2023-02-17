@@ -17,7 +17,6 @@ public class ZonkyDefaultHeadersInterceptor implements ClientHttpRequestIntercep
         HttpHeaders headers = request.getHeaders();
 //        headers.add("X-Page", "0");
 //        headers.add("X-Size", "100");
-
         return execution.execute(request, body);
     }
 }
